@@ -1,7 +1,6 @@
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
-    // Function to count the number of integers with an even number of digits
     int count = 0;
     for (int num : nums) {
         int digits = 0;
